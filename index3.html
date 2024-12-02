@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+body  {
+    font-family:Arial, sans-serif;
+    background-color:white;
+    color: rgb(12, 12, 12);
+    padding:0;
+    margin: 0;
+    font-size:large;
+}
+   
+header h1  {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+input  {
+    padding: 10px;
+    width:100%;
+    background-color: #4a154b;
+    color: white;
+    border: 2px solid white;
+    border-radius:10px;
+    justify-content: start;
+    text-align: center;
+    cursor: pointer;
+} 
+
+.sidebar  {
+    background-color: #4a154b;
+    color:white;
+    width:200px;
+    height:500px;
+    margin: 0;
+    float: left;
+    padding:10px;
+    border-radius:5 px;
+} 
+
+.main  {
+    padding: 20px;
+}
+
+.content  {
+    justify-content: center;
+    text-align: center;
+    padding:100px;
+}
+
+.my-img  {
+    width:80px;
+}
+
+.button  {
+    background-color: rgb(40, 212, 40);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.channel  {
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.channel:hover  {
+    text-decoration: underline;
+}
+
+footer  {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+}
+</style>
+</head>
+<body>
+        
+        
+    <header>
+        <input type="search" placeholder="Search-tutorial">
+               <div class="sidebar">
+                   <h2>Slack <br>Clone</h2>
+                   <div class="channel"># general</div>
+                   <div class="channel"># random</div>
+                   <div class="channel"># announcements</div>
+                   <div class="channel"># more</div>
+              </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <img src="https://encrypted-tbn0.gstatic.
+com/images?q=tbn:ANd9GcSxW6fTiPmg8Eo7H2wzWdBXonzS60Nb3cipy
+QTnS47zH2BN2i45AU4ICnF-2D27avgI_r8&usqp=CAU" class="my-img">
+            <h1 class="channel">Add New Channel</h1>
+            <button class="button">Create Channel</button>
+        </div>
+    </main>
+        
+
+        <footer>
+            
+            <p>&copy ; 2024 Slack Technologies,LLC, a Salesforce   company.All rights reserved.
+            </p>
+        </footer>
+</body>
+</html>
